@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BoletoMuseo
+comment0.text=\r\n\ Representa\ un\ boleto\ de\ museo\ emitido\ en\ una\ fecha\ con\ un\ precio\ y\ n\u00FAmero\ consecutivo.\r\n\ <p>\r\n\ Clase\ de\ l\u00F3gica\ de\ negocios.\r\n\ </p>\r\n\ @author\ Danny\r\n\ @version\ 1.0\r\n\ @since\ 2025-09-24\r\n
+comment1.params=precio
+comment1.target=BoletoMuseo(double)
+comment1.text=\r\n\ Crea\ un\ boleto\ con\ el\ precio\ indicado.\ Asigna\ n\u00FAmero\ consecutivo\r\n\ y\ establece\ la\ fecha\ de\ emisi\u00F3n\ al\ d\u00EDa\ actual.\r\n\ @param\ precio\ precio\ del\ boleto\ en\ colones\r\n
+comment2.params=
+comment2.target=java.lang.String\ establecerFechaEmisionBoleto()
+comment2.text=\r\n\ Define\ la\ fecha\ de\ emisi\u00F3n\ en\ formato\ yyyy-MM-dd\ usando\ la\ fecha\ del\ sistema.\r\n\ @return\ cadena\ con\ la\ fecha\ de\ emisi\u00F3n\r\n
+comment3.params=
+comment3.target=int\ getContador()
+comment3.text=\r\n\ Devuelve\ el\ contador\ global\ de\ boletos\ creados.\r\n\ @return\ cantidad\ de\ boletos\ creados\r\n
+comment4.params=
+comment4.target=int\ getNumeroBoleto()
+comment4.text=\r\n\ Obtiene\ el\ n\u00FAmero\ consecutivo\ del\ boleto.\r\n\ @return\ n\u00FAmero\ del\ boleto\r\n
+comment5.params=
+comment5.target=double\ getPrecio()
+comment5.text=\r\n\ Obtiene\ el\ precio\ del\ boleto.\r\n\ @return\ precio\ en\ colones\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Representaci\u00F3n\ textual\ del\ boleto,\ incluyendo\ n\u00FAmero,\ precio\ y\ fecha.\r\n\ @return\ descripci\u00F3n\ legible\ del\ boleto\r\n
+numComments=7
